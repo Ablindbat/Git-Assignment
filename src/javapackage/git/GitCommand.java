@@ -15,6 +15,10 @@ class Action{
 		value = a * b;
 		System.out.println("Multiply value: "+value);
 	}
+	public void divideTwoNumber() {
+		value = a / b;
+		System.out.println("Division: "+value);
+	}
 }
 public class GitCommand {
 
@@ -23,6 +27,7 @@ public class GitCommand {
 		action.addTwoNumber();
 		action.minusTwoNumber();
 		action.multipleTwoNumber();
+		action.divideTwoNumber();
 
 	}
 
